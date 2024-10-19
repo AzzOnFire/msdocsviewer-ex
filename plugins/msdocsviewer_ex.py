@@ -11,8 +11,8 @@ from PyQt5 import QtWidgets
 
 
 USE_CACHE = True
-DOC_DB_PATH = pathlib.Path(__file__).parent / 'msdocsviewer_ex.db'
-HOTKEY = 'Ctrl-Shift-Z'
+DOC_DB_PATH = pathlib.Path(__file__).parent / 'msdn.db'
+HOTKEY = 'Ctrl-Shift-B'
 
 
 class DocsDBView(object):
