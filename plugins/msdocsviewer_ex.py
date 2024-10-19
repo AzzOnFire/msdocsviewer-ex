@@ -94,6 +94,8 @@ class MSDNChoose(idaapi.Choose):
     def Pick(self, options: list):
         self.options = options
         index = super().Show(modal=True)
+        if index == -1:
+            return None
         return self.options[index]
 
 
