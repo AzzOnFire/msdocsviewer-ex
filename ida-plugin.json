@@ -1,0 +1,12 @@
+{
+    "IDAMetadataDescriptorVersion": 1,
+    "plugin": {
+      "name": "MsDocsViewerEx",
+      "entryPoint": "plugins/msdocsviewer_ex",
+      "categories": ["integration-with-third-parties-interoperability", "ui-ux-and-visualization"],
+      "logoPath": "images/logo.png",
+      "idaVersions": ">=8.3",
+      "description" : "msdocsviewer-ex is a simple tool for viewing Microsoft technical documentation offline",
+      "version": "0.5.0"
+    }
+}
